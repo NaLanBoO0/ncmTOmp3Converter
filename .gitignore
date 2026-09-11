@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.spec
+
+# PyInstaller 构建产物（exe 走 GitHub Releases 发布，不入库）
+build/
+dist/
+_build/
+_out/
+
+# 编辑器 / IDE（IDEA、PyCharm、VS Code）
+.idea/
+.vscode/
+
+# 临时文件
+*.part
+*.tmp
+~$*
+
+# 快照校验文件（由 tools/backup_version.py 维护，不属于仓库内容）
+MANIFEST.txt
