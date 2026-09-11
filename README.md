@@ -42,14 +42,16 @@
 
 ### 方式一：直接用 exe（推荐）
 
-到 [Releases](../../releases) 下载：
+到 [Releases](https://github.com/NaLanBoO0/ncmTOmp3Converter/releases/latest) 下载：
 
 | 文件 | 说明 |
 |---|---|
-| `NCM转MP3.exe` | **双击即用**，自动打开图形界面（无控制台黑框） |
-| `ncm2mp3-命令行.exe` | 命令行版；也可以把 `.ncm` 文件直接拖到图标上 |
+| [`NCM-to-MP3-v1.0-Windows.exe`](https://github.com/NaLanBoO0/ncmTOmp3Converter/releases/download/v1.0/NCM-to-MP3-v1.0-Windows.exe) | **双击即用**，自动打开图形界面（无控制台黑框） |
+| [`ncm2mp3-v1.0-commandline.exe`](https://github.com/NaLanBoO0/ncmTOmp3Converter/releases/download/v1.0/ncm2mp3-v1.0-commandline.exe) | 命令行版；也可以把 `.ncm` 文件直接拖到图标上 |
 
 免安装、免配置、不依赖 Python。要求 **64 位 Windows 10 / 11**。
+
+> 发布包的文件名用了英文 —— GitHub 的上传接口会把资产名里的汉字替换成 `.`（`NCM转MP3.exe` 会变成 `NCM.MP3.exe`），所以改用英文名。下完自己重命名回中文不影响使用。
 
 ### 方式二：从源码运行
 
